@@ -473,11 +473,11 @@ document.addEventListener('DOMContentLoaded', function () {
             // Calculate trimester
             let trimesterText;
             if (weeks <= 13) {
-                trimesterText = "1 (Na Farko)";
+                trimesterText = "1 ";
             } else if (weeks <= 27) {
-                trimesterText = "2 (Na Biyu)";
+                trimesterText = "2";
             } else {
-                trimesterText = "3 (Na Uku)";
+                trimesterText = "3";
             }
 
             // Calculate month
@@ -598,8 +598,8 @@ document.addEventListener('DOMContentLoaded', function () {
             updateElement('baby-size-text', `Girman jariri: ${results.babySize}`);
             updateElement('due-date-text', formatDateHausa(results.edd));
             updateElement('weeks-left-text', `Saura makonni: ${results.weeksLeft}`);
-            updateElement('week-display', `${results.weeks} (Ki ke a yanzu)`);
-            updateElement('month-display', `${results.month} (Ki ke a yanzu)`);
+            updateElement('week-display', `${results.weeks}`);
+            updateElement('month-display', `${results.month} `);
             updateElement('trimester-display', results.trimesterText);
 
             // Update progress bar
