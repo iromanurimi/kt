@@ -1,0 +1,27 @@
+/js
+│
+├── main.js                # App entry point (DOMContentLoaded, initApp)
+│
+├── config/
+│   ├── constants.js       # babySizes, categoryNames
+│
+├── utils/
+│   ├── toast.js           # showToast
+│   ├── date.js            # formatDateHausa
+│
+├── ui/
+│   ├── theme.js           # initTheme
+│   ├── flipCards.js       # initFlipCards
+│   ├── navigation.js      # initPageNavigation
+│
+├── calculators/
+│   ├── ovulation.js       # initOvulationCalculator
+│   ├── pregnancy.js       # initPregnancyTracker
+│
+├── articles/
+│   ├── articles.js        # initArticles
+│
+├── chatbot/
+│   ├── knowledge.js       # chatbotKnowledge
+│   ├── response.js        # getBotResponse
+│   ├── chatbot.js         # initChatbot (your existing logic)
